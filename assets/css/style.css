@@ -1,0 +1,53 @@
+/*usa um documento apenas para todas minhas paginas, mas separando com comentarios pela boas praticas*/
+
+/* Estilos da página index.html*/
+
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+#menu li {    /* essa forma para alinhar o links home, contato ... */
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{     /* essa forma para mudar a cor deles */
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#menu li a:hover{  /* quando o mouse tiver em cima do link mude a cor deles para cinza ps. dá p usar p tudo esse hover, background, animação */
+    color: grey;
+}
+
+.br-50{   /* modificando a imagem para ficar retangular */
+    border-radius: 50%;
+}
+
+.tm{  /*tamanho do footer */
+    width: 50px;
+    height: 50px;
+}
+
+.mg-50{  /* espaçamento do video com o footer */
+    margin-bottom: 70px;
+}
+
+
+/* Estilos da página contato.html*/
+
+.left{    /* espaçamento do mapa para a esquerda*/
+    margin-left: 50px;
+}
+
+
+
+/* Estilos da página genero.html*/

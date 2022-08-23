@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -20,31 +22,58 @@
             <a href="genero.html">Generos</a>
         </li>
     </ul>
-    <h1>Entre em contato comigo!</h1>
+    <h1 class="center">Entre em contato comigo!</h1>
 
-    <form>
-        <label for="nome">Nome: </label> <br>
-        <input type="text" id="nome">
-        <br>
-        <label for="email">Email: </label> <br>
-        <input type="text" id="email">
-        <br>
-        <label for="assunto">Assunto: </label> <br>
-        <!-- esse br não é uma boa pratica no front, estamos botando só nessa fase inicial -->
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
+    <div class="container mb-50">
 
-        <button>Enviar</button>
-    </form>
+        <div>
+            
+            <form>
+                <label for="nome">Nome: </label> <br>
+                <input type="text" id="nome">
+                <br>
+                <label for="email">Email: </label> <br>
+                <input type="text" id="email">
+                <br>
+                <label for="assunto">Assunto: </label> <br>
+                <!-- esse br não é uma boa pratica no front, estamos botando só nessa fase inicial -->
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+        
+                <button>Enviar</button>
+            </form>
 
-    <h2>Endereço</h2>
-    <p>Praça Rio Branco - Recife</p>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3890889090944!2d-34.87287598522006!3d-8.061735294195389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a48f26183d%3A0x6a9ebfb27ba8f98d!2sPra%C3%A7a%20Rio%20Branco%20-%20Recife%2C%20PE%2C%2050030-230!5e0!3m2!1sen!2sbr!4v1661192838098!5m2!1sen!2sbr"
-        width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+        </div>
+
+        <div class="left">
+            
+            <p>Praça Rio Branco - Recife</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3890889090944!2d-34.87287598522006!3d-8.061735294195389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a48f26183d%3A0x6a9ebfb27ba8f98d!2sPra%C3%A7a%20Rio%20Branco%20-%20Recife%2C%20PE%2C%2050030-230!5e0!3m2!1sen!2sbr!4v1661192838098!5m2!1sen!2sbr"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/paloma-freire-68282b182/" target="_blank">
+                <img class="tm p-30" src="assets/img/linkedin.png" alt="logo do linkedin">
+            </a>
+            <a href="https://github.com/palomafreiire" target="_blank">
+                <img class="tm p-30" src="assets/img/github.png" alt="logo do github">
+            </a>
+            
+            
+        </div>
+        <p class="center">
+            Todos os direitos reservados para Paloma Freire &copy
+        </p> 
+    
+    </footer>
 
 
 </body>

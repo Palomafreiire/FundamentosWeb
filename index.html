@@ -12,11 +12,34 @@
 
 
     <title>All Pop</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">   <!-- aqui que informa nosso programa que iremos trabalhar com css-->
+
+ <!-- para centralizar o texto que você quer, mas para estilizar a nossa pagina iremos fazer pelo css
+    <style>
+        .center{
+            text-align: center;
+        }
+    </style> -->
+
+
+    <!--<style>
+
+        p{
+            font-size: 20px;  
+        }
+    </style>  outra forma de inserir a fonte de forma geral-->
+
+    <!-- style 
+        #p2{
+            font-size: 20px;    ' aqui como mudar a fonte com o id do local que quer mudar '
+        }--> 
+
 </head>
 
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -28,25 +51,58 @@
         </li>
     </ul>
 
-    <h1>Sobre a Página</h1>
+    <h1 class="center">Sobre a Página</h1>
+    <div class="container">
 
-    <p>
-        Perfil sobre séries dos mais variados temas.
-    </p>
-    <p>
-        Aqui você encontra todas as séries do momento para assistir de todos os gêneros.
-    </p>
+        <div>
+             <p class="center"> <!-- style="font-size: 30px;"uma forma de inserir a fonte, de maneira local coloca dentro das aspas do p -->
+                Perfil sobre séries dos mais variados temas. 
+            </p>
+            <p class="center">  <!--id="p2"  terceira forma de botar a fonte é inserindo um id onde você quer mudar, vai lá em head e bota o id-->
+                Aqui você encontra todas as séries do momento para assistir de todos os gêneros.
+            </p>
+        </div>
 
-    <img src="assets/img/series.jpg" alt="series">
+
+        <div>
+                <!-- se quiser usar varias p com a mesma fonte melhor é fazer com class= p1 (coloca o nome que quiser)-->
+            <img class="br-50 p-30" src="assets/img/series.jpg" width="700" height="400">
+
+        </div>
+       
+   
+    </div>
+
+    
 
 
-    <h1>Meu video preferido</h1>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZeaqKj_Mxrw" title="YouTube video player"
+    <h2 class="center">Meu video preferido</h2>
+    <div class="container mb-50" >
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZeaqKj_Mxrw" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
     </iframe>
 
+
+    </div>
+  
 </body>
+<hr>
+<footer>
+    <div class="container">
+        <a href="https://www.linkedin.com/in/paloma-freire-68282b182/" target="_blank">
+            <img class="tm p-30" src="assets/img/linkedin.png" alt="logo do linkedin">
+        </a>
+        <a href="https://github.com/palomafreiire" target="_blank">
+            <img class="tm p-30" src="assets/img/github.png" alt="logo do github">
+        </a>
+        
+        
+    </div>
+    <p class="center">
+        Todos os direitos reservados para Paloma Freire &copy
+    </p> 
+
+</footer>
 
 </html>
