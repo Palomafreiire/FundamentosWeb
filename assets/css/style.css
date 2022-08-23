@@ -2,6 +2,15 @@
 
 /* Estilos da página index.html*/
 
+.fonte{
+    font-family: 'Times New Roman', Times, serif;
+    color:blueviolet ;
+}
+
+body{
+    background-color: black;
+}
+
 .center{
     text-align: center;
 }
@@ -20,7 +29,7 @@
 
 #menu li a{     /* essa forma para mudar a cor deles */
     text-decoration: none;
-    color: black;
+    color:blue;
     font-size: 15px;
 }
 
@@ -40,6 +49,8 @@
 .mg-50{  /* espaçamento do video com o footer */
     margin-bottom: 70px;
 }
+
+
 
 
 /* Estilos da página contato.html*/
